@@ -1,0 +1,7 @@
+bp ntdll!NtCreateThreadEx "$$<@@DIR@@/print.wds"
+bp ntdll!NtWaitForSingleObject "$$<@@DIR@@/print.wds"
+bp ntdll!NtClose "$$<@@DIR@@/print.wds"
+bp ntdll!NtAllocateVirtualMemory "$$<@@DIR@@/print.wds"
+bp ntdll!NtFreeVirtualMemory "$$<@@DIR@@/print.wds"
+bp ntdll!NtTerminateThread "$$<@@DIR@@/print.wds"
+bp ntdll!NtTerminateProcess "$$<@@DIR@@/print.wds"

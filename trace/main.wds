@@ -1,0 +1,4 @@
+sxn ld
+sxi bpe
+sxe -c "$$<@@DIR@@/bps.wds; gc" cpr
+g
